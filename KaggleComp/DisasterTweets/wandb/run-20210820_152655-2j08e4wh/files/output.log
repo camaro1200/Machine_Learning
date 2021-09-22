@@ -1,0 +1,8 @@
+
+  0%|                                                                                                                                                                                                                                                   | 0/100 [00:00<?, ?it/s]
+{'input_ids': tensor([[   0, 4718,  322,   84,   41, 3805,   21,    2]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1]])}
+{'input_ids': tensor([[   0, 4718,  322,   84,   41, 3805,   21,    2]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1]])}
+{'input_ids': tensor([[   0, 4718,  322,   84,   41, 3805,   21,    2]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1]])}
+{'input_ids': tensor([[   0, 4718,  322,   84,   41, 3805,   21,    2]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1]])}
+{'input_ids': tensor([[   0, 4718,  322,   84,   41, 3805,   21,    2]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1]])}
+{'input_ids': tensor([[   0, 4718,  322,   84,   41, 3805,   21,    2]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1]])}

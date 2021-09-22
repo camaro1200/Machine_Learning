@@ -1,0 +1,721 @@
+2021-08-18 15:45:03,664 INFO    MainThread:5403 [internal.py:wandb_internal():89] W&B internal server running at pid: 5403, started at: 2021-08-18 15:45:03.664118
+2021-08-18 15:45:03,666 INFO    WriterThread:5403 [datastore.py:open_for_write():77] open: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/run-3g5kcpp4.wandb
+2021-08-18 15:45:03,666 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: check_version
+2021-08-18 15:45:03,667 DEBUG   SenderThread:5403 [sender.py:send():182] send: header
+2021-08-18 15:45:03,667 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: check_version
+2021-08-18 15:45:03,872 DEBUG   SenderThread:5403 [sender.py:send():182] send: run
+2021-08-18 15:45:03,874 DEBUG   SenderThread:5403 [git.py:repo():33] git repository is invalid
+2021-08-18 15:45:04,114 INFO    SenderThread:5403 [dir_watcher.py:__init__():168] watching files in: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files
+2021-08-18 15:45:04,114 INFO    SenderThread:5403 [sender.py:_start_run_threads():743] run started: 3g5kcpp4 with start time 1629290703
+2021-08-18 15:45:04,114 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:04,114 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:04,115 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: run_start
+2021-08-18 15:45:04,118 DEBUG   HandlerThread:5403 [meta.py:__init__():39] meta init
+2021-08-18 15:45:04,118 DEBUG   HandlerThread:5403 [meta.py:__init__():53] meta init done
+2021-08-18 15:45:04,118 DEBUG   HandlerThread:5403 [meta.py:probe():210] probe
+2021-08-18 15:45:04,124 DEBUG   HandlerThread:5403 [git.py:repo():33] git repository is invalid
+2021-08-18 15:45:04,124 DEBUG   HandlerThread:5403 [meta.py:_save_pip():57] save pip
+2021-08-18 15:45:04,125 DEBUG   HandlerThread:5403 [meta.py:_save_pip():71] save pip done
+2021-08-18 15:45:04,125 DEBUG   HandlerThread:5403 [meta.py:probe():252] probe done
+2021-08-18 15:45:04,128 DEBUG   SenderThread:5403 [sender.py:send():182] send: files
+2021-08-18 15:45:04,128 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-18 15:45:04,136 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:45:04,136 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:45:04,772 INFO    Thread-11 :5403 [upload_job.py:push():137] Uploaded file /tmp/tmpzua3dlgpwandb/3mxyxz8r-wandb-metadata.json
+2021-08-18 15:45:05,116 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:05,117 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-metadata.json
+2021-08-18 15:45:05,117 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/requirements.txt
+2021-08-18 15:45:05,117 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:07,115 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:11,116 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:14,744 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:14,745 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:14,747 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:15,118 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:17,118 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:19,351 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:45:19,351 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:45:20,047 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:20,047 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:20,048 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:20,119 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:21,119 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:25,342 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:25,342 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:25,343 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:26,122 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:27,122 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:30,646 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:30,647 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:30,649 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:31,123 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:32,453 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:45:33,124 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:34,526 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:45:34,526 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:45:35,945 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:35,946 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:35,946 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:36,125 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:37,125 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:41,249 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:41,249 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:41,251 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:42,127 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:43,127 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:46,553 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:46,553 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:46,556 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:47,129 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:49,130 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:49,744 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:45:49,744 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:45:51,860 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:51,860 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:51,861 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:52,131 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:53,131 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:45:57,168 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:45:57,168 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:45:57,170 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:45:58,133 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:45:59,134 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:02,476 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:02,476 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:02,478 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:02,768 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:46:03,135 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:04,920 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:46:04,921 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:46:05,136 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:07,782 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:07,783 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:07,783 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:08,137 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:09,137 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:13,090 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:13,090 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:13,092 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:13,139 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:15,139 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:18,393 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:18,393 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:18,393 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:19,140 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:20,129 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:46:20,130 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:46:21,141 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:23,697 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:23,697 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:23,699 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:24,142 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:25,143 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:29,002 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:29,003 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:29,003 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:29,144 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:31,145 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:33,092 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:46:34,306 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:34,306 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:34,309 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:35,146 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:35,304 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:46:35,304 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:46:37,147 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:39,611 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:39,611 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:39,612 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:40,149 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:41,150 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:44,914 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:44,914 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:44,916 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:45,151 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:47,152 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:50,216 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:50,217 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:50,217 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:50,553 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:46:50,553 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:46:51,153 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:51,153 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:46:55,516 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:46:55,516 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:46:55,519 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:46:56,155 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:46:57,156 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:00,816 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:00,816 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:00,817 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:01,157 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:03,158 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:03,405 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:47:05,726 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:47:05,726 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:47:06,115 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:06,116 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:06,118 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:06,158 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:07,159 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:11,417 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:11,417 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:11,418 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:12,160 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:13,161 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:16,719 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:16,719 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:16,721 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:17,162 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:19,162 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:20,962 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:47:20,962 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:47:22,024 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:22,024 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:22,025 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:22,163 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:23,164 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:27,329 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:27,329 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:27,331 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:28,165 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:29,166 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:32,630 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:32,630 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:32,631 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:33,167 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:33,718 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:47:35,168 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:36,140 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:47:36,140 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:47:37,933 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:37,933 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:37,936 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:38,168 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:39,169 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:43,240 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:43,240 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:43,241 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:44,171 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:45,171 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:48,546 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:48,546 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:48,549 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:49,172 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:51,173 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:51,318 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:47:51,318 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:47:53,848 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:53,848 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:53,849 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:54,174 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:47:55,174 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:47:59,152 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:47:59,152 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:47:59,155 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:47:59,176 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:01,176 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:04,042 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:48:04,457 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:04,458 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:04,458 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:05,178 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:06,493 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:48:06,493 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:48:07,178 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:09,765 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:09,766 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:09,768 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:10,179 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:11,179 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:15,075 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:15,076 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:15,076 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:15,181 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:17,182 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:20,387 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:20,387 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:20,389 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:21,183 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:21,184 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:21,716 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:48:21,716 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:48:25,700 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:25,700 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:25,701 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:26,185 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:27,185 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:31,010 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:31,010 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:31,012 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:31,187 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:33,187 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:34,362 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:48:36,317 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:36,317 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:36,318 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:36,961 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:48:36,962 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:48:37,189 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:37,189 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:41,628 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:41,628 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:41,630 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:42,190 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:43,191 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:46,937 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:46,937 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:46,938 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:47,192 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:49,193 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:52,247 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:52,247 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:52,249 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:52,288 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:48:52,288 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:48:53,194 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:53,194 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:48:57,557 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:48:57,557 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:48:57,558 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:48:58,196 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:48:59,196 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:02,872 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:02,873 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:02,875 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:03,198 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:04,682 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:49:05,199 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:07,463 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:49:07,464 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:49:08,184 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:08,184 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:08,185 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:08,200 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:09,200 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:13,493 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:13,493 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:13,496 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:14,202 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:15,202 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:18,800 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:18,800 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:18,801 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:19,203 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:21,204 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:22,678 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:49:22,678 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:49:24,110 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:24,110 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:24,113 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:24,205 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:25,205 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:29,420 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:29,420 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:29,421 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:30,207 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:31,207 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:34,725 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:34,725 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:34,728 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:34,998 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:49:35,208 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:37,209 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:37,856 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:49:37,856 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:49:40,034 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:40,035 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:40,035 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:40,210 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:41,210 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:45,345 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:45,345 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:45,347 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:46,212 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:47,212 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:50,654 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:50,654 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:50,654 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:51,214 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:53,085 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:49:53,085 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:49:53,214 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:49:55,963 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:49:55,964 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:49:55,966 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:49:56,216 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:49:57,216 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:01,269 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:01,269 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:01,270 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:02,218 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:03,218 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:05,313 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:50:06,577 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:06,577 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:06,577 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:07,219 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:08,265 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:50:08,265 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:50:09,220 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:11,883 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:11,883 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:11,883 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:12,221 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:13,221 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:17,193 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:17,193 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:17,194 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:17,223 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:19,223 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:22,496 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:22,497 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:22,497 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:23,224 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:23,225 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:23,495 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:50:23,495 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:50:27,802 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:27,803 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:27,805 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:28,226 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:29,226 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:33,111 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:33,111 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:33,112 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:33,228 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:35,228 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:35,641 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:50:38,421 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:38,421 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:38,421 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:38,680 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:50:38,681 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:50:39,230 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:39,230 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:43,731 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:43,731 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:43,732 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:44,231 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:45,231 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:49,041 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:49,042 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:49,042 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:49,233 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:51,233 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:53,858 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:50:53,858 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:50:54,353 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:54,353 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:54,354 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:50:55,234 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:50:55,235 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:50:59,667 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:50:59,668 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:50:59,670 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:00,236 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:01,236 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:04,984 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:04,984 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:04,985 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:05,237 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:05,961 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:51:07,238 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:09,081 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:51:09,082 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:51:10,296 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:10,296 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:10,297 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:11,239 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:11,240 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:15,612 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:15,612 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:15,613 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:16,241 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:17,242 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:20,927 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:20,927 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:20,927 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:21,243 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:23,244 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:24,256 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:51:24,256 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:51:26,236 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:26,237 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:26,237 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:26,244 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:27,245 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:31,546 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:31,546 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:31,549 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:32,247 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:33,248 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:36,277 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:51:36,859 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:36,859 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:36,860 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:37,249 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:39,250 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:39,429 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:51:39,429 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:51:42,172 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:42,172 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:42,172 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:42,251 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:43,251 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:47,487 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:47,488 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:47,488 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:48,254 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:49,254 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:52,804 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:52,804 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:52,804 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:53,255 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:54,604 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:51:54,604 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:51:55,256 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:51:58,112 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:51:58,113 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:51:58,113 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:51:58,257 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:51:59,257 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:03,424 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:03,424 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:03,427 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:04,258 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:05,259 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:06,590 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:52:08,736 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:08,736 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:08,737 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:09,260 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:09,778 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:52:09,778 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:52:11,261 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:14,054 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:14,054 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:14,054 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:14,262 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:15,262 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:19,371 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:19,371 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:19,372 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:20,263 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:21,264 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:24,684 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:24,684 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:24,684 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:24,954 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:52:24,954 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:52:25,265 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:25,265 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:30,006 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:30,007 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:30,007 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:30,267 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:31,267 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:35,324 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:35,324 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:35,327 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:36,269 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:36,910 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:52:37,269 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:40,129 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:52:40,129 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:52:40,643 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:40,644 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:40,644 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:41,270 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:41,270 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:45,963 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:45,963 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:45,963 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:46,272 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:47,272 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:51,282 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:51,282 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:51,283 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:52,274 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:53,274 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:52:55,308 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:52:55,308 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:52:56,596 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:52:56,596 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:52:56,596 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:52:57,275 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:52:57,275 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:01,917 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:01,918 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:01,918 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:02,277 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:03,277 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:07,232 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:53:07,242 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:07,242 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:07,242 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:07,278 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:09,279 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:10,484 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:53:10,484 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:53:12,565 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:12,565 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:12,566 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:13,281 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:13,281 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:17,878 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:17,878 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:17,879 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:18,283 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:19,283 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:23,194 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:23,195 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:23,195 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:23,284 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:25,285 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:25,662 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:53:25,662 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:53:28,516 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:28,516 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:28,517 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:29,286 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:29,286 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:33,840 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:33,840 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:33,841 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:34,287 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:35,288 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:37,555 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:53:39,163 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:39,163 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:39,163 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:39,289 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:40,836 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-18 15:53:40,836 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: stop_status
+2021-08-18 15:53:41,290 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:44,483 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:44,483 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:44,484 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:45,291 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:45,291 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:49,798 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:49,798 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:49,798 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:50,293 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:51,293 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:55,116 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:55,116 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:55,116 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:55,141 DEBUG   SenderThread:5403 [sender.py:send():182] send: history
+2021-08-18 15:53:55,141 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:55,142 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:55,294 INFO    Thread-8  :5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:55,392 DEBUG   SenderThread:5403 [sender.py:send():182] send: telemetry
+2021-08-18 15:53:55,393 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:55,393 DEBUG   SenderThread:5403 [sender.py:send():182] send: exit
+2021-08-18 15:53:55,393 INFO    SenderThread:5403 [sender.py:send_exit():291] handling exit code: 0
+2021-08-18 15:53:55,393 INFO    SenderThread:5403 [sender.py:send_exit():293] handling runtime: 531
+2021-08-18 15:53:55,393 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:55,394 INFO    SenderThread:5403 [sender.py:send_exit():303] send defer
+2021-08-18 15:53:55,394 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:55,394 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:55,394 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 0
+2021-08-18 15:53:55,394 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:55,395 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-08-18 15:53:55,395 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 1
+2021-08-18 15:53:55,395 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:55,395 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 1
+2021-08-18 15:53:55,436 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:55,437 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-08-18 15:53:55,437 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 2
+2021-08-18 15:53:55,437 DEBUG   SenderThread:5403 [sender.py:send():182] send: stats
+2021-08-18 15:53:55,437 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:55,437 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 2
+2021-08-18 15:53:55,438 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:55,438 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-08-18 15:53:55,438 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 3
+2021-08-18 15:53:55,438 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:55,438 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 3
+2021-08-18 15:53:55,438 DEBUG   SenderThread:5403 [sender.py:send():182] send: summary
+2021-08-18 15:53:55,439 INFO    SenderThread:5403 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-18 15:53:55,439 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:55,439 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-08-18 15:53:55,439 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 4
+2021-08-18 15:53:55,439 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:55,439 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 4
+2021-08-18 15:53:55,439 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:55,440 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-08-18 15:53:55,499 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:55,639 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 5
+2021-08-18 15:53:55,639 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:55,640 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:55,640 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 5
+2021-08-18 15:53:55,640 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:55,640 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-08-18 15:53:55,640 INFO    SenderThread:5403 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-18 15:53:55,740 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:56,295 INFO    SenderThread:5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:56,296 INFO    SenderThread:5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/config.yaml
+2021-08-18 15:53:56,296 INFO    SenderThread:5403 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:56,296 INFO    SenderThread:5403 [dir_watcher.py:finish():312] scan: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files
+2021-08-18 15:53:56,296 INFO    SenderThread:5403 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-metadata.json wandb-metadata.json
+2021-08-18 15:53:56,296 INFO    SenderThread:5403 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/requirements.txt requirements.txt
+2021-08-18 15:53:56,296 INFO    SenderThread:5403 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/config.yaml config.yaml
+2021-08-18 15:53:56,297 INFO    SenderThread:5403 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json wandb-summary.json
+2021-08-18 15:53:56,297 INFO    SenderThread:5403 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log output.log
+2021-08-18 15:53:56,301 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 6
+2021-08-18 15:53:56,306 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:56,310 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:56,311 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 6
+2021-08-18 15:53:56,315 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:56,315 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-08-18 15:53:56,315 INFO    SenderThread:5403 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 15:53:56,412 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:56,412 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:56,513 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:56,513 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:56,615 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:56,615 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:56,717 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:56,717 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:56,819 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:56,819 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:56,860 INFO    Thread-15 :5403 [upload_job.py:push():137] Uploaded file /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/output.log
+2021-08-18 15:53:56,866 INFO    Thread-13 :5403 [upload_job.py:push():137] Uploaded file /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/config.yaml
+2021-08-18 15:53:56,871 INFO    Thread-14 :5403 [upload_job.py:push():137] Uploaded file /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/wandb-summary.json
+2021-08-18 15:53:56,879 INFO    Thread-12 :5403 [upload_job.py:push():137] Uploaded file /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/files/requirements.txt
+2021-08-18 15:53:56,920 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:56,921 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:57,022 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:57,022 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:57,079 INFO    Thread-7  :5403 [sender.py:transition_state():316] send defer: 7
+2021-08-18 15:53:57,080 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:57,080 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 7
+2021-08-18 15:53:57,080 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:57,080 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-08-18 15:53:57,124 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:57,432 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 8
+2021-08-18 15:53:57,432 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:57,432 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:57,433 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 8
+2021-08-18 15:53:57,433 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:57,433 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-08-18 15:53:57,433 INFO    SenderThread:5403 [sender.py:transition_state():316] send defer: 9
+2021-08-18 15:53:57,433 DEBUG   SenderThread:5403 [sender.py:send():182] send: final
+2021-08-18 15:53:57,433 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: defer
+2021-08-18 15:53:57,434 DEBUG   SenderThread:5403 [sender.py:send():182] send: footer
+2021-08-18 15:53:57,434 INFO    HandlerThread:5403 [handler.py:handle_request_defer():145] handle defer: 9
+2021-08-18 15:53:57,434 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: defer
+2021-08-18 15:53:57,434 INFO    SenderThread:5403 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-08-18 15:53:57,534 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-18 15:53:57,534 DEBUG   SenderThread:5403 [sender.py:send_request():196] send_request: poll_exit
+2021-08-18 15:53:57,534 INFO    SenderThread:5403 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 15:53:57,536 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: get_summary
+2021-08-18 15:53:57,536 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: sampled_history
+2021-08-18 15:53:57,538 DEBUG   HandlerThread:5403 [handler.py:handle_request():128] handle_request: shutdown
+2021-08-18 15:53:57,538 INFO    HandlerThread:5403 [handler.py:finish():677] shutting down handler
+2021-08-18 15:53:58,434 INFO    WriterThread:5403 [datastore.py:close():281] close: /home/iris/paulshab/KaggleComp/wandb/run-20210818_154503-3g5kcpp4/run-3g5kcpp4.wandb
+2021-08-18 15:53:58,535 INFO    SenderThread:5403 [sender.py:finish():979] shutting down sender
+2021-08-18 15:53:58,535 INFO    SenderThread:5403 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-18 15:53:58,535 INFO    SenderThread:5403 [file_pusher.py:join():182] waiting for file pusher
+2021-08-18 15:53:58,537 INFO    MainThread:5403 [internal.py:handle_exit():76] Internal process exited

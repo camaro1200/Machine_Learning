@@ -1,0 +1,15 @@
+--2021-07-01 22:14:06--  https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F68%2F143568-050-5246474F%2FDonkey.jpg
+Resolving www.google.com (www.google.com)... 173.194.222.147, 173.194.222.99, 173.194.222.105, ...
+Connecting to www.google.com (www.google.com)|173.194.222.147|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.google.com/imghp [following]
+--2021-07-01 22:14:06--  https://www.google.com/imghp
+Reusing existing connection to www.google.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'imgres?imgurl=https:%2F%2Fcdn.britannica.com%2F68%2F143568-050-5246474F%2FDonkey.jpg'
+
+                   imgres?imgurl=http     [<=>                                                                      ]       0  --.-KB/s               imgres?imgurl=https:%2F%2Fcdn.britann     [ <=>                                                                     ]  15.10K  --.-KB/s    in 0.001s  
+
+2021-07-01 22:14:06 (24.4 MB/s) - 'imgres?imgurl=https:%2F%2Fcdn.britannica.com%2F68%2F143568-050-5246474F%2FDonkey.jpg' saved [15461]
+

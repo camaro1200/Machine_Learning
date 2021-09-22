@@ -1,0 +1,140 @@
+2021-08-17 02:04:07,838 INFO    MainThread:7326 [wandb_setup.py:_flush():69] setting env: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1', 'notebook_name': 'Experiment1.ipynb'}
+2021-08-17 02:04:07,838 INFO    MainThread:7326 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-17 02:04:07,838 INFO    MainThread:7326 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210817_020407-2gkjz2dj/logs/debug.log
+2021-08-17 02:04:07,838 INFO    MainThread:7326 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210817_020407-2gkjz2dj/logs/debug-internal.log
+2021-08-17 02:04:07,839 INFO    MainThread:7326 [wandb_init.py:init():375] calling init triggers
+2021-08-17 02:04:07,839 INFO    MainThread:7326 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-17 02:04:07,839 INFO    MainThread:7326 [wandb_init.py:init():397] re-initializing run, found existing run on stack: pjs7kfws
+2021-08-17 02:04:07,840 INFO    MainThread:7326 [wandb_run.py:finish():1254] finishing run paul_shab/kaggle_nlp/pjs7kfws
+2021-08-17 02:04:07,840 INFO    MainThread:7326 [jupyter.py:save_history():339] not saving jupyter history
+2021-08-17 02:04:07,840 INFO    MainThread:7326 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-08-17 02:04:07,840 INFO    MainThread:7326 [wandb_init.py:_jupyter_teardown():275] cleaning up jupyter logic
+2021-08-17 02:04:07,840 INFO    MainThread:7326 [wandb_run.py:_atexit_cleanup():1554] got exitcode: 0
+2021-08-17 02:04:07,840 INFO    MainThread:7326 [wandb_run.py:_restore():1526] restore
+2021-08-17 02:04:08,183 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 618
+  total_bytes: 618
+}
+
+2021-08-17 02:04:08,451 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 618
+  total_bytes: 618
+}
+
+2021-08-17 02:04:09,454 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 618
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:09,556 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 618
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:09,657 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2948
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:09,760 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3605
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:09,862 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3605
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:09,964 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3605
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:10,066 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3605
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:10,168 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3605
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:10,564 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3605
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:10,666 INFO    MainThread:7326 [wandb_run.py:_wait_for_finish():1676] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3605
+  total_bytes: 3605
+}
+
+2021-08-17 02:04:11,734 INFO    MainThread:7326 [wandb_run.py:_show_files():1898] logging synced files
+2021-08-17 02:04:11,739 INFO    MainThread:7326 [wandb_init.py:init():424] starting backend
+2021-08-17 02:04:11,740 INFO    MainThread:7326 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-08-17 02:04:11,744 INFO    MainThread:7326 [backend.py:ensure_launched():135] starting backend process...
+2021-08-17 02:04:11,767 INFO    MainThread:7326 [backend.py:ensure_launched():140] started backend process with pid: 11745
+2021-08-17 02:04:11,768 INFO    MainThread:7326 [wandb_init.py:init():429] backend started and connected
+2021-08-17 02:04:11,782 INFO    MainThread:7326 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-08-17 02:04:11,784 INFO    MainThread:7326 [wandb_init.py:init():477] updated telemetry
+2021-08-17 02:04:11,784 INFO    MainThread:7326 [wandb_init.py:init():500] communicating current version
+2021-08-17 02:04:12,343 INFO    MainThread:7326 [wandb_init.py:init():505] got version response 
+2021-08-17 02:04:12,343 INFO    MainThread:7326 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-08-17 02:04:12,542 INFO    MainThread:7326 [wandb_init.py:init():540] starting run threads in backend
+2021-08-17 02:04:12,560 INFO    MainThread:7326 [wandb_run.py:_console_start():1584] atexit reg
+2021-08-17 02:04:12,560 INFO    MainThread:7326 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.WRAP
+2021-08-17 02:04:12,560 INFO    MainThread:7326 [wandb_run.py:_redirect():1495] Wrapping output streams.
+2021-08-17 02:04:12,561 INFO    MainThread:7326 [wandb_run.py:_redirect():1519] Redirects installed.
+2021-08-17 02:04:12,561 INFO    MainThread:7326 [wandb_init.py:init():565] run started, returning control to user process
+2021-08-17 02:04:34,974 INFO    MainThread:7326 [wandb_setup.py:_flush():69] setting env: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1', 'notebook_name': 'Experiment1.ipynb'}
+2021-08-17 02:04:34,974 INFO    MainThread:7326 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-17 02:04:34,974 INFO    MainThread:7326 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210817_020434-2dqh3kbd/logs/debug.log
+2021-08-17 02:04:34,974 INFO    MainThread:7326 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210817_020434-2dqh3kbd/logs/debug-internal.log
+2021-08-17 02:04:34,974 INFO    MainThread:7326 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f96af65a7d0>
+2021-08-17 02:04:34,975 INFO    MainThread:7326 [wandb_init.py:init():375] calling init triggers
+2021-08-17 02:04:34,975 INFO    MainThread:7326 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-17 02:04:34,975 INFO    MainThread:7326 [wandb_init.py:init():397] re-initializing run, found existing run on stack: 2gkjz2dj
+2021-08-17 02:04:34,976 INFO    MainThread:7326 [wandb_run.py:finish():1254] finishing run paul_shab/kaggle_nlp/2gkjz2dj

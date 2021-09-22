@@ -1,0 +1,11 @@
+param_dic:
+  epochs: 50
+  lr: 0.00001
+  device: 1
+  
+# batch size
+
+# folder path
+# resize param
+# schedular
+

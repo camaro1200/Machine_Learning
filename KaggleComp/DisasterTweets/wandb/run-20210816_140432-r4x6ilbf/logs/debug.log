@@ -1,0 +1,75 @@
+2021-08-16 14:04:32,728 INFO    MainThread:3084 [wandb_setup.py:_flush():69] setting env: {}
+2021-08-16 14:04:32,728 INFO    MainThread:3084 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-16 14:04:32,728 ERROR   MainThread:3084 [wandb_setup.py:_flush():69] error
+Traceback (most recent call last):
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 772, in init
+    wi.setup(kwargs)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 161, in setup
+    wandb_login._login(anonymous=anonymous, force=force, _disable_warning=True)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_login.py", line 235, in _login
+    wlogin.prompt_api_key()
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_login.py", line 163, in prompt_api_key
+    no_create=self._settings.force,
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/lib/apikey.py", line 121, in prompt_api_key
+    write_key(settings, key, api=api)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/lib/apikey.py", line 206, in write_key
+    raise ValueError("API key must be 40 characters long, yours was %s" % len(key))
+ValueError: API key must be 40 characters long, yours was 4
+2021-08-16 14:04:32,728 INFO    MainThread:3084 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-16 14:04:32,728 ERROR   MainThread:3084 [wandb_setup.py:_flush():69] error
+Traceback (most recent call last):
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 772, in init
+    wi.setup(kwargs)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 161, in setup
+    wandb_login._login(anonymous=anonymous, force=force, _disable_warning=True)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_login.py", line 235, in _login
+    wlogin.prompt_api_key()
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_login.py", line 163, in prompt_api_key
+    no_create=self._settings.force,
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/lib/apikey.py", line 121, in prompt_api_key
+    write_key(settings, key, api=api)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/lib/apikey.py", line 206, in write_key
+    raise ValueError("API key must be 40 characters long, yours was %s" % len(key))
+ValueError: API key must be 40 characters long, yours was 4
+2021-08-16 14:04:32,729 INFO    MainThread:3084 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-16 14:04:32,729 ERROR   MainThread:3084 [wandb_setup.py:_flush():69] error
+Traceback (most recent call last):
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 772, in init
+    wi.setup(kwargs)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 161, in setup
+    wandb_login._login(anonymous=anonymous, force=force, _disable_warning=True)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_login.py", line 235, in _login
+    wlogin.prompt_api_key()
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/wandb_login.py", line 163, in prompt_api_key
+    no_create=self._settings.force,
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/lib/apikey.py", line 121, in prompt_api_key
+    write_key(settings, key, api=api)
+  File "/home/iris/paulshab/NLP_env/nlp_environ/lib/python3.7/site-packages/wandb/sdk/lib/apikey.py", line 206, in write_key
+    raise ValueError("API key must be 40 characters long, yours was %s" % len(key))
+ValueError: API key must be 40 characters long, yours was 4
+2021-08-16 14:04:32,729 INFO    MainThread:3084 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-16 14:04:32,729 INFO    MainThread:3084 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1'}
+2021-08-16 14:04:32,729 INFO    MainThread:3084 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210816_140432-r4x6ilbf/logs/debug.log
+2021-08-16 14:04:32,729 INFO    MainThread:3084 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210816_140432-r4x6ilbf/logs/debug-internal.log
+2021-08-16 14:04:32,730 INFO    MainThread:3084 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f5872135390>
+2021-08-16 14:04:32,730 INFO    MainThread:3084 [wandb_init.py:init():375] calling init triggers
+2021-08-16 14:04:32,730 INFO    MainThread:3084 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-16 14:04:32,730 INFO    MainThread:3084 [wandb_init.py:init():424] starting backend
+2021-08-16 14:04:32,730 INFO    MainThread:3084 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-08-16 14:04:32,759 INFO    MainThread:3084 [backend.py:ensure_launched():135] starting backend process...
+2021-08-16 14:04:32,784 INFO    MainThread:3084 [backend.py:ensure_launched():140] started backend process with pid: 3350
+2021-08-16 14:04:32,785 INFO    MainThread:3084 [wandb_init.py:init():429] backend started and connected
+2021-08-16 14:04:32,800 INFO    MainThread:3084 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-08-16 14:04:32,801 INFO    MainThread:3084 [wandb_run.py:_label_probe_notebook():805] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-08-16 14:04:32,801 INFO    MainThread:3084 [wandb_init.py:init():477] updated telemetry
+2021-08-16 14:04:32,801 INFO    MainThread:3084 [wandb_init.py:init():500] communicating current version
+2021-08-16 14:04:33,365 INFO    MainThread:3084 [wandb_init.py:init():505] got version response 
+2021-08-16 14:04:33,365 INFO    MainThread:3084 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-08-16 14:04:33,568 INFO    MainThread:3084 [wandb_init.py:init():540] starting run threads in backend
+2021-08-16 14:04:33,586 INFO    MainThread:3084 [wandb_run.py:_console_start():1584] atexit reg
+2021-08-16 14:04:33,587 INFO    MainThread:3084 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.WRAP
+2021-08-16 14:04:33,588 INFO    MainThread:3084 [wandb_run.py:_redirect():1495] Wrapping output streams.
+2021-08-16 14:04:33,590 INFO    MainThread:3084 [wandb_run.py:_redirect():1519] Redirects installed.
+2021-08-16 14:04:33,590 INFO    MainThread:3084 [wandb_init.py:init():565] run started, returning control to user process
+2021-08-16 14:09:33,529 INFO    MainThread:3084 [wandb_run.py:finish():1254] finishing run paul_shab/kaggle_nlp/r4x6ilbf

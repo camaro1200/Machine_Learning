@@ -1,0 +1,153 @@
+2021-08-11 15:21:49,072 INFO    MainThread:4106 [internal.py:wandb_internal():89] W&B internal server running at pid: 4106, started at: 2021-08-11 15:21:49.072195
+2021-08-11 15:21:49,074 INFO    WriterThread:4106 [datastore.py:open_for_write():77] open: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/run-2j2w7q9k.wandb
+2021-08-11 15:21:49,074 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: check_version
+2021-08-11 15:21:49,075 DEBUG   SenderThread:4106 [sender.py:send():182] send: header
+2021-08-11 15:21:49,075 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: check_version
+2021-08-11 15:21:49,256 DEBUG   SenderThread:4106 [sender.py:send():182] send: run
+2021-08-11 15:21:49,259 DEBUG   SenderThread:4106 [git.py:repo():33] git repository is invalid
+2021-08-11 15:21:49,468 INFO    SenderThread:4106 [dir_watcher.py:__init__():168] watching files in: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files
+2021-08-11 15:21:49,468 INFO    SenderThread:4106 [sender.py:_start_run_threads():743] run started: 2j2w7q9k with start time 1628684508
+2021-08-11 15:21:49,468 DEBUG   SenderThread:4106 [sender.py:send():182] send: summary
+2021-08-11 15:21:49,468 INFO    SenderThread:4106 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-11 15:21:49,469 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: run_start
+2021-08-11 15:21:49,472 DEBUG   HandlerThread:4106 [meta.py:__init__():39] meta init
+2021-08-11 15:21:49,473 DEBUG   HandlerThread:4106 [meta.py:__init__():53] meta init done
+2021-08-11 15:21:49,473 DEBUG   HandlerThread:4106 [meta.py:probe():210] probe
+2021-08-11 15:21:49,479 DEBUG   HandlerThread:4106 [git.py:repo():33] git repository is invalid
+2021-08-11 15:21:49,479 DEBUG   HandlerThread:4106 [meta.py:_save_pip():57] save pip
+2021-08-11 15:21:49,479 DEBUG   HandlerThread:4106 [meta.py:_save_pip():71] save pip done
+2021-08-11 15:21:49,479 DEBUG   HandlerThread:4106 [meta.py:probe():252] probe done
+2021-08-11 15:21:49,481 DEBUG   SenderThread:4106 [sender.py:send():182] send: files
+2021-08-11 15:21:49,481 INFO    SenderThread:4106 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-08-11 15:21:49,486 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-11 15:21:49,487 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: stop_status
+2021-08-11 15:21:49,494 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: pause
+2021-08-11 15:21:49,495 INFO    HandlerThread:4106 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-11 15:21:49,653 DEBUG   SenderThread:4106 [sender.py:send():182] send: stats
+2021-08-11 15:21:49,991 INFO    Thread-11 :4106 [upload_job.py:push():137] Uploaded file /tmp/tmpqi4skj9uwandb/wu3fwz4h-wandb-metadata.json
+2021-08-11 15:21:50,470 INFO    Thread-8  :4106 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/wandb-summary.json
+2021-08-11 15:21:50,470 INFO    Thread-8  :4106 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/requirements.txt
+2021-08-11 15:21:50,471 INFO    Thread-8  :4106 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/wandb-metadata.json
+2021-08-11 15:21:50,471 INFO    Thread-8  :4106 [dir_watcher.py:_on_file_created():216] file/dir created: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/output.log
+2021-08-11 15:22:04,654 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-11 15:22:04,654 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: stop_status
+2021-08-11 15:22:19,828 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-11 15:22:19,829 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: stop_status
+2021-08-11 15:22:35,021 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: stop_status
+2021-08-11 15:22:35,021 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: stop_status
+2021-08-11 15:22:43,150 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: resume
+2021-08-11 15:22:43,151 INFO    HandlerThread:4106 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-11 15:22:43,151 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: pause
+2021-08-11 15:22:43,151 INFO    HandlerThread:4106 [handler.py:handle_request_pause():561] stopping system metrics thread
+2021-08-11 15:22:43,183 DEBUG   SenderThread:4106 [sender.py:send():182] send: stats
+2021-08-11 15:22:44,259 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: resume
+2021-08-11 15:22:44,259 INFO    HandlerThread:4106 [handler.py:handle_request_resume():552] starting system metrics thread
+2021-08-11 15:22:45,080 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,080 DEBUG   SenderThread:4106 [sender.py:send():182] send: telemetry
+2021-08-11 15:22:45,081 DEBUG   SenderThread:4106 [sender.py:send():182] send: exit
+2021-08-11 15:22:45,081 INFO    SenderThread:4106 [sender.py:send_exit():291] handling exit code: 0
+2021-08-11 15:22:45,081 INFO    SenderThread:4106 [sender.py:send_exit():293] handling runtime: 0
+2021-08-11 15:22:45,081 INFO    SenderThread:4106 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-11 15:22:45,081 INFO    SenderThread:4106 [sender.py:send_exit():303] send defer
+2021-08-11 15:22:45,081 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:45,082 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:45,082 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 0
+2021-08-11 15:22:45,082 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:45,082 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-08-11 15:22:45,082 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 1
+2021-08-11 15:22:45,083 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:45,083 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 1
+2021-08-11 15:22:45,201 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,201 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:45,201 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-08-11 15:22:45,201 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 2
+2021-08-11 15:22:45,202 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:45,202 DEBUG   SenderThread:4106 [sender.py:send():182] send: stats
+2021-08-11 15:22:45,202 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:45,204 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 2
+2021-08-11 15:22:45,204 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:45,204 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-08-11 15:22:45,204 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 3
+2021-08-11 15:22:45,204 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:45,205 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 3
+2021-08-11 15:22:45,205 DEBUG   SenderThread:4106 [sender.py:send():182] send: summary
+2021-08-11 15:22:45,205 INFO    SenderThread:4106 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-08-11 15:22:45,205 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:45,205 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-08-11 15:22:45,205 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 4
+2021-08-11 15:22:45,206 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:45,206 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 4
+2021-08-11 15:22:45,206 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:45,206 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-08-11 15:22:45,303 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,441 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 5
+2021-08-11 15:22:45,441 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:45,441 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:45,442 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 5
+2021-08-11 15:22:45,442 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:45,442 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-08-11 15:22:45,442 INFO    SenderThread:4106 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-11 15:22:45,491 INFO    SenderThread:4106 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/config.yaml
+2021-08-11 15:22:45,492 INFO    SenderThread:4106 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/wandb-summary.json
+2021-08-11 15:22:45,492 INFO    SenderThread:4106 [dir_watcher.py:finish():312] scan: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files
+2021-08-11 15:22:45,492 INFO    SenderThread:4106 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/wandb-metadata.json wandb-metadata.json
+2021-08-11 15:22:45,492 INFO    SenderThread:4106 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/requirements.txt requirements.txt
+2021-08-11 15:22:45,492 INFO    SenderThread:4106 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/config.yaml config.yaml
+2021-08-11 15:22:45,492 INFO    SenderThread:4106 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/wandb-summary.json wandb-summary.json
+2021-08-11 15:22:45,493 INFO    SenderThread:4106 [dir_watcher.py:finish():318] scan save: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/output.log output.log
+2021-08-11 15:22:45,497 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 6
+2021-08-11 15:22:45,497 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:45,498 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 6
+2021-08-11 15:22:45,506 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:45,506 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-08-11 15:22:45,506 INFO    SenderThread:4106 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-11 15:22:45,542 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,543 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:45,644 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,645 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:45,746 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,746 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:45,848 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,848 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:45,949 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:45,950 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:46,009 INFO    Thread-16 :4106 [upload_job.py:push():137] Uploaded file /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/wandb-summary.json
+2021-08-11 15:22:46,044 INFO    Thread-14 :4106 [upload_job.py:push():137] Uploaded file /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/requirements.txt
+2021-08-11 15:22:46,051 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:46,051 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:46,093 INFO    Thread-15 :4106 [upload_job.py:push():137] Uploaded file /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/files/config.yaml
+2021-08-11 15:22:46,153 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:46,153 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:46,255 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:46,255 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:46,294 INFO    Thread-7  :4106 [sender.py:transition_state():316] send defer: 7
+2021-08-11 15:22:46,294 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:46,294 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 7
+2021-08-11 15:22:46,295 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:46,295 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-08-11 15:22:46,357 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:46,604 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 8
+2021-08-11 15:22:46,605 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:46,605 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:46,605 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 8
+2021-08-11 15:22:46,606 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:46,606 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-08-11 15:22:46,606 INFO    SenderThread:4106 [sender.py:transition_state():316] send defer: 9
+2021-08-11 15:22:46,606 DEBUG   SenderThread:4106 [sender.py:send():182] send: final
+2021-08-11 15:22:46,606 DEBUG   SenderThread:4106 [sender.py:send():182] send: footer
+2021-08-11 15:22:46,607 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: defer
+2021-08-11 15:22:46,607 INFO    HandlerThread:4106 [handler.py:handle_request_defer():145] handle defer: 9
+2021-08-11 15:22:46,607 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: defer
+2021-08-11 15:22:46,607 INFO    SenderThread:4106 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-08-11 15:22:46,707 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: poll_exit
+2021-08-11 15:22:46,707 DEBUG   SenderThread:4106 [sender.py:send_request():196] send_request: poll_exit
+2021-08-11 15:22:46,707 INFO    SenderThread:4106 [file_pusher.py:join():182] waiting for file pusher
+2021-08-11 15:22:46,709 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: get_summary
+2021-08-11 15:22:46,709 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: sampled_history
+2021-08-11 15:22:46,710 DEBUG   HandlerThread:4106 [handler.py:handle_request():128] handle_request: shutdown
+2021-08-11 15:22:46,710 INFO    HandlerThread:4106 [handler.py:finish():677] shutting down handler
+2021-08-11 15:22:47,607 INFO    WriterThread:4106 [datastore.py:close():281] close: /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/run-2j2w7q9k.wandb
+2021-08-11 15:22:47,708 INFO    SenderThread:4106 [sender.py:finish():979] shutting down sender
+2021-08-11 15:22:47,708 INFO    SenderThread:4106 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-11 15:22:47,708 INFO    SenderThread:4106 [file_pusher.py:join():182] waiting for file pusher
+2021-08-11 15:22:47,709 INFO    MainThread:4106 [internal.py:handle_exit():76] Internal process exited

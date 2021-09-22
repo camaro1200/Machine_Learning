@@ -1,0 +1,135 @@
+2021-08-11 15:25:01,491 INFO    MainThread:3689 [wandb_setup.py:_flush():69] setting env: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1'}
+2021-08-11 15:25:01,491 INFO    MainThread:3689 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-11 15:25:01,492 INFO    MainThread:3689 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210811_152501-3i5inf0j/logs/debug.log
+2021-08-11 15:25:01,492 INFO    MainThread:3689 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210811_152501-3i5inf0j/logs/debug-internal.log
+2021-08-11 15:25:01,492 INFO    MainThread:3689 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f635c393350>
+2021-08-11 15:25:01,493 INFO    MainThread:3689 [wandb_init.py:init():375] calling init triggers
+2021-08-11 15:25:01,493 INFO    MainThread:3689 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-11 15:25:01,493 INFO    MainThread:3689 [wandb_init.py:init():397] re-initializing run, found existing run on stack: 20mz8a2n
+2021-08-11 15:25:01,494 INFO    MainThread:3689 [wandb_run.py:finish():1254] finishing run paul_shab/kaggle_nlp/20mz8a2n
+2021-08-11 15:25:01,494 INFO    MainThread:3689 [wandb_run.py:_atexit_cleanup():1554] got exitcode: 0
+2021-08-11 15:25:01,494 INFO    MainThread:3689 [wandb_run.py:_restore():1526] restore
+2021-08-11 15:25:02,336 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 627
+  total_bytes: 627
+}
+
+2021-08-11 15:25:02,575 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 627
+  total_bytes: 627
+}
+
+2021-08-11 15:25:02,685 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 627
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:02,787 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 627
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:02,888 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 627
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:02,990 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3484
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:03,092 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3484
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:03,194 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3484
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:03,296 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3484
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:03,398 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3484
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:03,753 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3484
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:03,855 INFO    MainThread:3689 [wandb_run.py:_wait_for_finish():1676] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3484
+  total_bytes: 3484
+}
+
+2021-08-11 15:25:04,922 INFO    MainThread:3689 [wandb_run.py:_show_summary():1831] rendering summary
+2021-08-11 15:25:04,923 INFO    MainThread:3689 [wandb_run.py:_show_history():1869] rendering history
+2021-08-11 15:25:04,925 INFO    MainThread:3689 [wandb_run.py:_show_files():1898] logging synced files
+2021-08-11 15:25:04,930 INFO    MainThread:3689 [wandb_init.py:init():424] starting backend
+2021-08-11 15:25:04,930 INFO    MainThread:3689 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-08-11 15:25:04,933 INFO    MainThread:3689 [backend.py:ensure_launched():135] starting backend process...
+2021-08-11 15:25:04,954 INFO    MainThread:3689 [backend.py:ensure_launched():140] started backend process with pid: 4218
+2021-08-11 15:25:04,955 INFO    MainThread:3689 [wandb_init.py:init():429] backend started and connected
+2021-08-11 15:25:04,970 INFO    MainThread:3689 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-08-11 15:25:04,970 INFO    MainThread:3689 [wandb_run.py:_label_probe_notebook():805] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-08-11 15:25:04,970 INFO    MainThread:3689 [wandb_init.py:init():477] updated telemetry
+2021-08-11 15:25:04,971 INFO    MainThread:3689 [wandb_init.py:init():500] communicating current version
+2021-08-11 15:25:05,531 INFO    MainThread:3689 [wandb_init.py:init():505] got version response 
+2021-08-11 15:25:05,532 INFO    MainThread:3689 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-08-11 15:25:05,780 INFO    MainThread:3689 [wandb_init.py:init():540] starting run threads in backend
+2021-08-11 15:25:05,797 INFO    MainThread:3689 [wandb_run.py:_console_start():1584] atexit reg
+2021-08-11 15:25:05,798 INFO    MainThread:3689 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.WRAP
+2021-08-11 15:25:05,798 INFO    MainThread:3689 [wandb_run.py:_redirect():1495] Wrapping output streams.
+2021-08-11 15:25:05,799 INFO    MainThread:3689 [wandb_run.py:_redirect():1519] Redirects installed.
+2021-08-11 15:25:05,799 INFO    MainThread:3689 [wandb_init.py:init():565] run started, returning control to user process
+2021-08-11 15:25:05,799 INFO    MainThread:3689 [wandb_init.py:_pause_backend():256] pausing backend
+2021-08-11 15:25:05,799 INFO    MainThread:3689 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-08-11 15:28:52,325 INFO    MainThread:3689 [wandb_init.py:_resume_backend():265] resuming backend
+2021-08-11 15:28:52,326 INFO    MainThread:3689 [wandb_run.py:finish():1254] finishing run paul_shab/kaggle_nlp/3i5inf0j

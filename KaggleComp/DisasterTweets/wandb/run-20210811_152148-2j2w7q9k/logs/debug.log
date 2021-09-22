@@ -1,0 +1,40 @@
+2021-08-11 15:21:48,611 INFO    MainThread:3689 [wandb_setup.py:_flush():69] setting env: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1'}
+2021-08-11 15:21:48,611 INFO    MainThread:3689 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-11 15:21:48,611 INFO    MainThread:3689 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/logs/debug.log
+2021-08-11 15:21:48,611 INFO    MainThread:3689 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210811_152148-2j2w7q9k/logs/debug-internal.log
+2021-08-11 15:21:48,612 INFO    MainThread:3689 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f635e00c790>
+2021-08-11 15:21:48,612 INFO    MainThread:3689 [wandb_init.py:init():375] calling init triggers
+2021-08-11 15:21:48,612 INFO    MainThread:3689 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-11 15:21:48,612 INFO    MainThread:3689 [wandb_init.py:init():424] starting backend
+2021-08-11 15:21:48,612 INFO    MainThread:3689 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-08-11 15:21:48,645 INFO    MainThread:3689 [backend.py:ensure_launched():135] starting backend process...
+2021-08-11 15:21:48,671 INFO    MainThread:3689 [backend.py:ensure_launched():140] started backend process with pid: 4106
+2021-08-11 15:21:48,672 INFO    MainThread:3689 [wandb_init.py:init():429] backend started and connected
+2021-08-11 15:21:48,686 INFO    MainThread:3689 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-08-11 15:21:48,687 INFO    MainThread:3689 [wandb_run.py:_label_probe_notebook():805] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-08-11 15:21:48,687 INFO    MainThread:3689 [wandb_init.py:init():477] updated telemetry
+2021-08-11 15:21:48,688 INFO    MainThread:3689 [wandb_init.py:init():500] communicating current version
+2021-08-11 15:21:49,255 INFO    MainThread:3689 [wandb_init.py:init():505] got version response 
+2021-08-11 15:21:49,255 INFO    MainThread:3689 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-08-11 15:21:49,469 INFO    MainThread:3689 [wandb_init.py:init():540] starting run threads in backend
+2021-08-11 15:21:49,486 INFO    MainThread:3689 [wandb_run.py:_console_start():1584] atexit reg
+2021-08-11 15:21:49,487 INFO    MainThread:3689 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.WRAP
+2021-08-11 15:21:49,487 INFO    MainThread:3689 [wandb_run.py:_redirect():1495] Wrapping output streams.
+2021-08-11 15:21:49,488 INFO    MainThread:3689 [wandb_run.py:_redirect():1519] Redirects installed.
+2021-08-11 15:21:49,488 INFO    MainThread:3689 [wandb_init.py:init():565] run started, returning control to user process
+2021-08-11 15:21:49,494 INFO    MainThread:3689 [wandb_init.py:_pause_backend():256] pausing backend
+2021-08-11 15:21:49,494 INFO    MainThread:3689 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-08-11 15:22:43,148 INFO    MainThread:3689 [wandb_init.py:_resume_backend():265] resuming backend
+2021-08-11 15:22:43,149 INFO    MainThread:3689 [wandb_init.py:_pause_backend():256] pausing backend
+2021-08-11 15:22:43,150 INFO    MainThread:3689 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-08-11 15:22:44,249 INFO    MainThread:3689 [wandb_init.py:_resume_backend():265] resuming backend
+2021-08-11 15:22:44,261 INFO    MainThread:3689 [wandb_setup.py:_flush():69] setting env: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1'}
+2021-08-11 15:22:44,261 INFO    MainThread:3689 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-11 15:22:44,261 INFO    MainThread:3689 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210811_152244-20mz8a2n/logs/debug.log
+2021-08-11 15:22:44,261 INFO    MainThread:3689 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210811_152244-20mz8a2n/logs/debug-internal.log
+2021-08-11 15:22:44,262 INFO    MainThread:3689 [wandb_init.py:init():375] calling init triggers
+2021-08-11 15:22:44,262 INFO    MainThread:3689 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-11 15:22:44,262 INFO    MainThread:3689 [wandb_init.py:init():397] re-initializing run, found existing run on stack: 2j2w7q9k
+2021-08-11 15:22:44,263 INFO    MainThread:3689 [wandb_run.py:finish():1254] finishing run paul_shab/kaggle_nlp/2j2w7q9k

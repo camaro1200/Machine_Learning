@@ -1,0 +1,20 @@
+{
+    "os": "Linux-5.4.0-80-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.6",
+    "heartbeatAt": "2021-08-11T14:42:46.616869",
+    "startedAt": "2021-08-11T14:42:45.785810",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/iris/.local/share/jupyter/runtime/kernel-18a9f8a2-5d00-4b5e-a0fd-bb79744b75ff.json"
+    ],
+    "state": "running",
+    "program": "Experiment1.ipynb",
+    "host": "iris",
+    "username": "iris",
+    "executable": "/home/iris/paulshab/NLP_env/nlp_environ/bin/python"
+}

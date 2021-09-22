@@ -1,0 +1,36 @@
+2021-08-14 16:18:24,525 INFO    MainThread:5107 [wandb_setup.py:_flush():69] setting env: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1', 'notebook_name': 'Experiment1.ipynb'}
+2021-08-14 16:18:24,525 INFO    MainThread:5107 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-14 16:18:24,525 INFO    MainThread:5107 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210814_161824-k1t5qv0n/logs/debug.log
+2021-08-14 16:18:24,525 INFO    MainThread:5107 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210814_161824-k1t5qv0n/logs/debug-internal.log
+2021-08-14 16:18:24,528 INFO    MainThread:5107 [wandb_init.py:_jupyter_setup():294] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f2344978510>
+2021-08-14 16:18:24,528 INFO    MainThread:5107 [wandb_init.py:init():375] calling init triggers
+2021-08-14 16:18:24,528 INFO    MainThread:5107 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-14 16:18:24,529 INFO    MainThread:5107 [wandb_init.py:init():424] starting backend
+2021-08-14 16:18:24,529 INFO    MainThread:5107 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-08-14 16:18:24,555 INFO    MainThread:5107 [backend.py:ensure_launched():135] starting backend process...
+2021-08-14 16:18:24,576 INFO    MainThread:5107 [backend.py:ensure_launched():140] started backend process with pid: 5191
+2021-08-14 16:18:24,577 INFO    MainThread:5107 [wandb_init.py:init():429] backend started and connected
+2021-08-14 16:18:24,595 INFO    MainThread:5107 [wandb_run.py:_label_probe_notebook():798] probe notebook
+2021-08-14 16:18:24,597 INFO    MainThread:5107 [wandb_init.py:init():477] updated telemetry
+2021-08-14 16:18:24,597 INFO    MainThread:5107 [wandb_init.py:init():500] communicating current version
+2021-08-14 16:18:25,157 INFO    MainThread:5107 [wandb_init.py:init():505] got version response 
+2021-08-14 16:18:25,157 INFO    MainThread:5107 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2021-08-14 16:18:25,354 INFO    MainThread:5107 [wandb_init.py:init():540] starting run threads in backend
+2021-08-14 16:18:25,373 INFO    MainThread:5107 [wandb_run.py:_console_start():1584] atexit reg
+2021-08-14 16:18:25,374 INFO    MainThread:5107 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.WRAP
+2021-08-14 16:18:25,374 INFO    MainThread:5107 [wandb_run.py:_redirect():1495] Wrapping output streams.
+2021-08-14 16:18:25,375 INFO    MainThread:5107 [wandb_run.py:_redirect():1519] Redirects installed.
+2021-08-14 16:18:25,375 INFO    MainThread:5107 [wandb_init.py:init():565] run started, returning control to user process
+2021-08-14 16:23:35,818 INFO    MainThread:5107 [wandb_init.py:_pause_backend():256] pausing backend
+2021-08-14 16:23:35,818 INFO    MainThread:5107 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-08-14 16:23:58,348 INFO    MainThread:5107 [wandb_init.py:_resume_backend():265] resuming backend
+2021-08-14 16:23:58,364 INFO    MainThread:5107 [wandb_setup.py:_flush():69] setting env: {'api_key': '20ef80315d2796a47ee939dd78c2077dbb6d82a1', 'notebook_name': 'Experiment1.ipynb'}
+2021-08-14 16:23:58,364 INFO    MainThread:5107 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-14 16:23:58,365 INFO    MainThread:5107 [wandb_init.py:_log_setup():342] Logging user logs to /home/iris/paulshab/KaggleComp/wandb/run-20210814_162358-1dm51hx5/logs/debug.log
+2021-08-14 16:23:58,365 INFO    MainThread:5107 [wandb_init.py:_log_setup():343] Logging internal logs to /home/iris/paulshab/KaggleComp/wandb/run-20210814_162358-1dm51hx5/logs/debug-internal.log
+2021-08-14 16:23:58,365 INFO    MainThread:5107 [wandb_init.py:init():375] calling init triggers
+2021-08-14 16:23:58,365 INFO    MainThread:5107 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-08-14 16:23:58,365 INFO    MainThread:5107 [wandb_init.py:init():397] re-initializing run, found existing run on stack: k1t5qv0n
+2021-08-14 16:23:58,366 INFO    MainThread:5107 [wandb_run.py:finish():1254] finishing run paul_shab/kaggle_nlp/k1t5qv0n
